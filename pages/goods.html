@@ -4,50 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Товары</title>
+    <link rel="stylesheet" href="../style/styles.css" />
   </head>
   <body>
-    <div id="header">Хэдер</div>
-    <div id="menu">
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="practices.html">Практики</a></li>
-        <li><a href="goods.html">Товары</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-      </ul>
-    </div>
-    <div>
-      <h2>Наши товары</h2>
-      <div id="goods_cards">
-        <div id="card_1">
-          <img
-            class="product-image"
-            src="../images/sol.jpg"
-            alt="Фото товара 1"
-          />
-          <h3>Товар 1</h3>
-          <p>Цена товара 1</p>
-        </div>
-        <div id="card_2">
-          <img
-            class="product-image"
-            src="../images/samosval.jpg"
-            alt="Фото товара 2"
-          />
-          <h3>Товар 2</h3>
-          <p>Цена товара 3</p>
-        </div>
-        <div id="card_3">
-          <img
-            class="product-image"
-            src="../images/garazh.jpg"
-            alt="Фото товара 3"
-          />
-          <h3>Товар 3</h3>
-          <p>Цена товара 3</p>
+    <div class="page-container">
+      <div class="header">Хэдер</div>
+      <div class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="practices.html">Практики</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="goods.html">Товары</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h2 class="title_style">Наши товары</h2>
+        <div class="grid">
+          <div class="product_card">
+            <img
+              class="product_image"
+              src="../images/sol.jpg"
+              alt="Фото товара 1"
+            />
+            <h3 class="news_title">Товар 1</h3>
+            <p class="news_text">Цена товара 1</p>
+          </div>
+          <div class="product_card">
+            <img
+              class="product_image"
+              src="../images/samosval.jpg"
+              alt="Фото товара 2"
+            />
+            <h3 class="news_title">Товар 2</h3>
+            <p class="news_text">Цена товара 2</p>
+          </div>
+          <div class="product_card">
+            <img
+              class="product_image"
+              src="../images/garazh.jpg"
+              alt="Фото товара 3"
+            />
+            <h3 class="news_title">Товар 3</h3>
+            <p class="news_text">Цена товара 3</p>
+          </div>
         </div>
       </div>
+      <div class="footer">Футер</div>
     </div>
-    <div id="footer">Футер</div>
   </body>
 </html>
