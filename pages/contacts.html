@@ -6,41 +6,55 @@
     <title>Контакты</title>
     <link rel="stylesheet" href="../style/styles.css" />
   </head>
-  <body>
-    <div class="page-container">
-      <div class="header">Хэдер</div>
-      <div class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Главная</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news.html">Новости</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="practices.html">Практики</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="goods.html">Товары</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contacts.html">Контакты</a>
-          </li>
-        </ul>
-      </div>
-      <div class="content">
-        <div class="contacts_page">
-          <h2 class="title_style">Контакты</h2>
-          <div class="e_contact">
-            <p>Адрес электронной почты: astafev@mirea.ru</p>
-          </div>
-          <div class="e_contact">
-            <p>Адрес: г. Москва, ул. Пушкина, д. Колотушкина</p>
-          </div>
-          <button class="contact_button">Позвоните мне</button>
-        </div>
-      </div>
-      <div class="footer">Футер</div>
-    </div>
-  </body>
+    <body>
+        <div class="page-container">
+            <header class="header">
+                <h1>Контакты</h1>
+            </header>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="practices.html">Практики</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <main class="content">
+                <section class="contacts-container">
+                    <h2 class="section-title">Наши контакты</h2>
+                    
+                    <article class="contact-info">
+                        <h3>Электронная почта</h3>
+                        <p>Адрес электронной почты: jkjkjj@df.ru</p>
+                    </article>
+                    
+                    <article class="contact-info">
+                        <h3>Физический адрес</h3>
+                        <p>Адрес: г. Москва, ул. Долгорукова, д. 3.</p>
+                    </article>
+
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <h3>Телефон</h3>
+                            <p>+7 000 000 00 00</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Время работы</h3>
+                            <p>Не работаем</p>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Социальные сети</h3>
+                            <p>VK, Telegram, WhatsApp</p>
+                        </div>
+                    </div>
+                    <button class="contact-button" onclick="contactModal.showModal()">Связаться с нами</button>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <p>© 2024 Все права защищены. Контактная информация</p>
+            </footer>
 </html>

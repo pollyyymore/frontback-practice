@@ -8,8 +8,14 @@
   </head>
   <body>
     <div class="page-container">
-      <div class="header">Хэдер</div>
-      <div class="nav">
+      <!-- Изменение: Заменили div на семантический тег -->
+      <header class="header">
+        <h1>Наши товары</h1>
+        <!-- Добавили осмысленный заголовок -->
+      </header>
+
+      <!-- Изменение: Заменили div на семантический тег -->
+      <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
             <a class="nav-link" href="../index.html">Главная</a>
@@ -27,40 +33,82 @@
             <a class="nav-link" href="contacts.html">Контакты</a>
           </li>
         </ul>
-      </div>
-      <div class="content">
-        <h2 class="title_style">Наши товары</h2>
-        <div class="grid">
-          <div class="product_card">
-            <img
-              class="product_image"
-              src="../images/sol.jpg"
-              alt="Фото товара 1"
-            />
-            <h3 class="news_title">Товар 1</h3>
-            <p class="news_text">Цена товара 1</p>
+      </nav>
+
+      <!-- Изменение: Заменили div на семантический тег -->
+      <main class="content">
+        <!-- Изменение: Заменили div на семантический тег -->
+        <section class="products-section">
+          <h2 class="section-title">Каталог товаров</h2>
+          <p class="section-description">
+            Мы предлагаем широкий ассортимент качественных товаров по доступным
+            ценам
+          </p>
+
+          <!-- Изменение: Заменили div на семантический тег -->
+          <div class="products-grid">
+            <!-- Изменение: Заменили div на семантический тег -->
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  class="product-image"
+                  src="../images/garazh.jpg"
+                  alt="Отличный гараж"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Отличный гараж</h3>
+                <p class="product-description">
+                  Гараж расположен недалеко от Москвы, примерно в Омске.
+                </p>
+                <p class="product-price">85 000,89 ₽</p>
+                <button class="product-button">В корзину</button>
+              </div>
+            </article>
+
+            <!-- Изменение: Заменили div на семантический тег -->
+            <article class="product-card">
+              <div class="product-image-container">
+                <img class="product-image" src="../images/sol.jpg" alt="Соль" />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Соль поваренная пищевая</h3>
+                <p class="product-description">
+                  Шикарная соль, поможет в хозяйстве. А также справится с
+                  пищевой добавкой.
+                </p>
+                <p class="product-price">5 ₽</p>
+                <button class="product-button">В корзину</button>
+              </div>
+            </article>
+
+            <!-- Изменение: Заменили div на семантический тег -->
+            <article class="product-card">
+              <div class="product-image-container">
+                <img
+                  class="product-image"
+                  src="../images/samosval.jpg"
+                  alt="Самосвал"
+                />
+              </div>
+              <div class="product-info">
+                <h3 class="product-name">Камаз</h3>
+                <p class="product-description">
+                  Самосвал отечественного производства, мощный и красивый.
+                  Проедет там, где волки срать боятся.
+                </p>
+                <p class="product-price">1 300 000 ₽</p>
+                <button class="product-button">В корзину</button>
+              </div>
+            </article>
           </div>
-          <div class="product_card">
-            <img
-              class="product_image"
-              src="../images/samosval.jpg"
-              alt="Фото товара 2"
-            />
-            <h3 class="news_title">Товар 2</h3>
-            <p class="news_text">Цена товара 2</p>
-          </div>
-          <div class="product_card">
-            <img
-              class="product_image"
-              src="../images/garazh.jpg"
-              alt="Фото товара 3"
-            />
-            <h3 class="news_title">Товар 3</h3>
-            <p class="news_text">Цена товара 3</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer">Футер</div>
+        </section>
+      </main>
+
+      <!-- Изменение: Заменили div на семантический тег -->
+      <footer class="footer">
+        <p>© 2024 Интернет-магазин. Все права защищены.</p>
+      </footer>
     </div>
   </body>
 </html>
